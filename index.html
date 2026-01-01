@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Lendom Parfum - Toko parfum premium dengan koleksi eksklusif. Belanja parfum original dengan harga terbaik."
+    />
+    <meta
+      name="keywords"
+      content="parfum, perfume, lendom, toko parfum, parfum original, parfum premium"
+    />
+    <title>Lendom Parfum - Toko Parfum Premium</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-wrapper">
+          <div class="logo">
+            <img src="assets/images/logo.png" alt="Lendom Parfum Logo" />
+          </div>
+          <div class="nav-links">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#products" class="nav-link">Produk</a>
+            <a href="#about" class="nav-link">Tentang</a>
+            <a href="#contact" class="nav-link">Kontak</a>
+          </div>
+          <div class="nav-actions">
+            <button class="cart-btn" id="cartBtn">
+              <i class="fas fa-shopping-cart"></i>
+              <span class="cart-count" id="cartCount">0</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-bg"></div>
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">Lendom Parfum</h1>
+          <p class="hero-subtitle">
+            Koleksi Parfum Premium untuk Kepribadian Anda
+          </p>
+          <p class="hero-description">
+            Temukan aroma signature yang mencerminkan karakter unik Anda.
+            Koleksi eksklusif dengan kualitas terbaik.
+          </p>
+          <a href="#products" class="btn btn-primary">Lihat Koleksi</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Koleksi Kami</h2>
+          <p class="section-subtitle">
+            Parfum premium pilihan dengan aroma yang tahan lama
+          </p>
+        </div>
+
+        <!-- Filter -->
+        <div class="filter-container">
+          <button class="filter-btn active" data-category="all">Semua</button>
+          <button class="filter-btn" data-category="Oriental">Oriental</button>
+          <button class="filter-btn" data-category="Fresh">Fresh</button>
+          <button class="filter-btn" data-category="Floral">Floral</button>
+          <button class="filter-btn" data-category="Aquatic">Aquatic</button>
+          <button class="filter-btn" data-category="Woody">Woody</button>
+          <button class="filter-btn" data-category="Gourmand">Gourmand</button>
+        </div>
+
+        <!-- Products Grid -->
+        <div class="products-grid" id="productsGrid">
+          <!-- Products will be loaded here by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="about-content">
+          <h2 class="section-title">Tentang Lendom Parfum</h2>
+          <p>
+            Lendom Parfum adalah destinasi terpercaya untuk parfum premium
+            berkualitas tinggi. Kami menghadirkan koleksi parfum eksklusif yang
+            dipilih dengan cermat untuk memenuhi selera dan kepribadian Anda.
+          </p>
+          <p>
+            Setiap produk kami adalah parfum original dengan jaminan kualitas
+            terbaik. Kami berkomitmen memberikan pengalaman berbelanja yang
+            menyenangkan dan produk yang memuaskan.
+          </p>
+          <div class="features">
+            <div class="feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span>100% Original</span>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-shipping-fast"></i>
+              <span>Pengiriman Cepat</span>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-shield-alt"></i>
+              <span>Garansi Kualitas</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <h2 class="section-title">Hubungi Kami</h2>
+        <p class="section-subtitle">Ada pertanyaan? Kami siap membantu Anda</p>
+        <div class="contact-info">
+          <a
+            href="https://wa.me/6289687042904"
+            class="contact-btn"
+            target="_blank"
+          >
+            <i class="fab fa-whatsapp"></i>
+            <span>Chat via WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img src="assets/images/logo.png" alt="Lendom Parfum" />
+            <p>Parfum Premium untuk Kepribadian Anda</p>
+          </div>
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <a href="#home">Home</a>
+            <a href="#products">Produk</a>
+            <a href="#about">Tentang</a>
+            <a href="#contact">Kontak</a>
+          </div>
+          <div class="footer-contact">
+            <h4>Kontak</h4>
+            <p><i class="fab fa-whatsapp"></i> +62 896-8704-2904</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Lendom Parfum. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Shopping Cart Modal -->
+    <div class="cart-modal" id="cartModal">
+      <div class="cart-overlay" id="cartOverlay"></div>
+      <div class="cart-content">
+        <div class="cart-header">
+          <h3>Keranjang Belanja</h3>
+          <button class="close-cart" id="closeCart">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <div class="cart-items" id="cartItems">
+          <!-- Cart items will be loaded here -->
+        </div>
+            <div class="cart-footer">
+                <div class="checkout-form">
+                    <div class="form-group">
+                        <label for="customerName">Nama Lengkap</label>
+                        <input type="text" id="customerName" class="form-input" placeholder="Masukkan nama Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="customerAddress">Alamat Pengiriman</label>
+                        <textarea id="customerAddress" class="form-input" rows="3" placeholder="Masukkan alamat lengkap untuk pengiriman" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="customerLocation">Lokasi Pengiriman (Opsional)</label>
+                        <button type="button" class="get-location-btn" id="openMapBtn">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Pilih Lokasi di Peta
+                        </button>
+                        <div class="location-info" id="locationInfo" style="display: none;">
+                            <i class="fas fa-check-circle"></i>
+                            <span id="locationText">Lokasi berhasil dipilih</span>
+                        </div>
+                        <input type="hidden" id="customerLatitude" value="">
+                        <input type="hidden" id="customerLongitude" value="">
+                    </div>
+                    <div class="form-group">
+                        <label for="customerPhone">No. Telepon</label>
+                        <input type="tel" id="customerPhone" class="form-input" placeholder="08xx xxxx xxxx" required>
+                    </div>
+                </div>
+                <div class="cart-total">
+                    <span>Total:</span>
+                    <span class="total-price" id="totalPrice">Rp 0</span>
+                </div>
+                <button class="btn btn-primary btn-block" id="checkoutBtn">
+                    <i class="fab fa-whatsapp"></i> Checkout via WhatsApp
+                </button>
+            </div>
+      </div>
+    </div>
+
+    <!-- WhatsApp Float Button -->
+    <a
+      href="https://wa.me/6289687042904"
+      class="whatsapp-float"
+      target="_blank"
+    >
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Map Popup Modal -->
+    <div class="map-modal" id="mapModal">
+      <div class="map-modal-overlay" id="mapModalOverlay"></div>
+      <div class="map-modal-content">
+        <div class="map-modal-header">
+          <h3>Pilih Lokasi Pengiriman</h3>
+          <button class="close-map-modal" id="closeMapModal">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <div class="map-modal-body">
+          <div class="map-instructions">
+            <i class="fas fa-info-circle"></i>
+            <span>Klik pada peta untuk memilih lokasi pengiriman Anda</span>
+          </div>
+          <div id="leafletMap" class="leaflet-map-container"></div>
+          <div class="map-coordinates" id="mapCoordinates" style="display: none;">
+            <i class="fas fa-map-pin"></i>
+            <span id="coordinatesText">Lat: -, Lng: -</span>
+          </div>
+        </div>
+        <div class="map-modal-footer">
+          <button class="btn-secondary" id="useCurrentLocation">
+            <i class="fas fa-crosshairs"></i>
+            Gunakan Lokasi Saat Ini
+          </button>
+          <button class="btn btn-primary" id="confirmLocation" disabled>
+            <i class="fas fa-check"></i>
+            Konfirmasi Lokasi
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <!-- Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <!-- JavaScript -->
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
